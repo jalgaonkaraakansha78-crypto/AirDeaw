@@ -1,0 +1,118 @@
+/* h2 {
+    color :orange;
+}
+
+button {
+    background-color: blue;
+    color: white;
+} */
+
+/* h1 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline double;
+    text-decoration-color: rgb(0, 238, 255);
+} */
+
+ * {
+    font-family: "Courier New";
+}
+
+h3 {
+    color: purple;
+}
+
+h1 {
+    color : #b92b27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote {
+    background-color: green;
+    color: white;
+} 
+
+/* decendant selector */
+/* .post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+div > input {
+    background-color: darksalmon;
+}
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color:green;
+} */
+/* * {
+    font-family: 'Courier New';
+}
+
+h1 {
+    color : #1b74e4;
+}
+
+.userbtn {
+    background-color: aqua;
+    color: black;
+}
+
+.userbtn {
+    background-color: aqua;
+    color: black;
+}
+
+#searchbtn {
+   background-color: black;
+    color: white;
+} */
+
+
+
+
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+
+video, canvas {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+#drawCanvas {
+  z-index: 2;
+}
+
+#feedbackCanvas {
+  z-index: 3;
+}
